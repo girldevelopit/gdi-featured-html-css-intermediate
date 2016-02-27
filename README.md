@@ -1,10 +1,10 @@
-Intermediate HTML/CSS &amp; Intro to Responsive Design
+HTML and CSS 201
 ================================
-#### Written by Cara Jo Miller, GDI Boulder. Modified by Lisa Smith, GDI RDU
+#### Written by Cara Jo Miller, GDI Boulder. Modified by Suzette Franck for GDI LA 
 ---------------------
 ## Course description
 
-Through the course of this four-part class, you'll get a thorough introduction to HTML5 and CSS3 to build on your previous knowledge. You'll get hands-on experience working with HTML5 features like semantic elements and forms, and you'll learn new CSS3 properties and abilities including transformations and transitions. Finally, we'll dig into responsive design and browser compatibility.
+Through the course of this two-part class, you'll get a thorough introduction to HTML5 and CSS3 to build on your previous knowledge. You'll get hands-on experience working with HTML5 features like semantic elements and forms, and you'll learn new CSS3 properties and abilities including transformations and transitions. Finally, we'll dig into responsive design and browser compatibility.
 
 You'll leave with readily-applicable skills and we'll be there to answer any questions you may have along the way!
 
