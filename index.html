@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Intermediate HTML/CSS &amp; Intro to Responsive Design &hearts; Girl Develop It Boulder</title>
+    <title>Intermediate HTML/CSS &amp; Intro to Responsive Design Girl Develop It NYC</title>
 
     <meta name="description" content="">
-    <meta name="author" content="Cara Jo Miller, adapted by Lisa Smith">
+    <meta name="author" content="Cara Jo Miller, adapted by Lisa Smith and Erin Depew">
 
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -31,9 +31,6 @@
     }
     </script>
     <link rel="icon" type="image/x-icon" href="reveal/favicon.ico" />
-    <!--[if lt IE 9]>
-    <script src="lib/js/html5shiv.js"></script>
-    <![endif]-->
 </head>
 
 <body>
@@ -41,11 +38,11 @@
     <div class="reveal">
 
         <!-- Any section element inside of this container is displayed as a slide -->
-        <div class="slides">
+        <div class="slides" styles="width: 1500px">
             <!-- Opening -->
             <section>
                 <img src="images/gdi_logo_badge.png" style="padding: 10px; width:400px;" alt="gdi" />
-                <h3>Intermediate HTML/CSS &amp; Intro to Responsive Design</h3>
+                <h3>Intermediate HTML/CSS &amp; <br> Intro to Responsive Design</h3>
             </section>
             <section>
                 <h2>Welcome!</h2>
@@ -58,58 +55,60 @@
                 <h3>Download workshop files <a href="./workshop-files.zip" download> <strong>here</strong></a></h3>
             </section>
             <section>
-                <h2>Thanks to our host:</h2>
+                <h2>Thanks to our host Codesmith</h2>
             </section>
             <section>
-                <h3>Class notes</h3>
-                <p>All slides are available at:<br />
-                <a href="http://girldevelopit.github.io/gdi-featured-intermediate-html-css/">http://girldevelopit.github.io/gdi-featured-intermediate-html-css/</a></p>
+                <p>All slides are available at:</p>
+                <a href="https://erindepew.github.io/gdi-featured-html-css-intermediate/#/">https://erindepew.github.io/gdi-featured-html-css-intermediate/#/</a></p>
             </section>
             <!-- Welcome-->
             <section class="hide-pdf">
                 <h3>Welcome!</h3>
                 <div class="left-align">
                     <p>Girl Develop It is here to provide affordable and accessible programs to learn software through mentorship and hands-on instruction.</p>
-                    <p class="green">Some "rules"</p>
-                    <ul>
-                        <li>We are here for you!</li>
-                        <li>Every question is important</li>
-                        <li>Help each other</li>
-                        <li>Have fun</li>
-                    </ul>
                 </div>
             </section>
+            <section class="hide-pdf">
+              <h3>House Rules</h3>
+              <div class="left-align">
+                  <ul>
+                      <li class="fragment">We are here for you!</li>
+                      <li class="fragment">Every question is important</li>
+                      <li class="fragment">Help each other</li>
+                      <li class="fragment">Have fun</li>
+                  </ul>
+              </div>
+          </section>
             <section class="hide-pdf">
                 <h3>Thank you to our Teaching Assistants today</h3>
             </section>
             <section class="hide-pdf">
-                <h3>About your instructor</h3>
+                <h3>A little about your instructor</h3>
+                <ul>
+                  <li class="fragment">2 years of design experience</li>
+                  <li class="fragment">4 years of frontend dev experience</li>
+                  <li class="fragment">Currently working at Spotify on R&amp;D</li>
+              </ul>
             </section>
             <section class="hide-pdf">
                 <h3>Now it's all about you!</h3>
                 <ul>
-                    <li>Tell us who you are.</li>
-                    <li>What do you hope to get out of this class?</li>
-                    <li>Unlimited amount of money - where would you travel to?</li>
-            </section>
-            <section>
-                <h2>What we'll be covering in this class</h2>
-                <p>We'll be jumping into HTML/CSS right where the beginner class left off.</p>
-                <p>We will not be going over the previous class, we just don't have the time!</p>
+                    <li class="fragment">Tell us who you are.</li>
+                    <li class="fragment">What do you hope to get out of this class?</li>
             </section>
             <section>
                 <h3>We will be building a profile site from scratch</h3>
                 <img src="images/gdi-profile-layout.png" alt="today's project" />
             </section>
             <section data-background="#f05b62">
-                <h1 style="color: #fafafa;">Workshop files</h1>
+                <h1 style="color: #fafafa;">Workshop Files</h1>
             </section>
             <section>
-                <h3>Workshop files</h3>
-                <p>Last reminder to download the files for today's class! </p>
+                <h3>Workshop Files</h3>
                 <ul>
-                    <li>We have provided a folder that contains sample images for you to use today. We encourage you to be creative so don't feel like you're restricted to these images</li>
-                    <li>We've also included a blank index.html file for you to work from, as well as the final site for you to use as a reference if you get stuck.</li>
+                    <li>Sample images</li>
+                    <li>Blank index.html file</li>
+                    <li>Completed demo site as reference</li>
                 </ul>
             </section>
             <section>
@@ -117,43 +116,53 @@
                 <p>We've set up the folder structure for the site today to reflect common practices used.</p>
                 <img src="images/folder-structure.png" alt="folder structure" style="width:500px;"/>
             </section>
-            <section>
-                <h3>Cheat sheets</h3>
-                <p>We've provided a copy of the site you'll be building today with notes on how to break down the layout of the page.</p>
-            </section>
             <section data-background="#f05b62">
-                <h1 style="color: #fafafa;">Common Applications</h1>
+                <h1 style="color: #fafafa;">HTML &amp; CSS</h1>
             </section>
             <section>
-                <h3>Common Applications</h3>
-                <p>HTML &amp; CSS are awesome, right?</p>
-                <p>But how do people use them
-                    <span class="green">really?</span>
-                    <p>Here's a few things we'll be covering today:</p>
-                    <ul>
-                        <li class="fragment">Horizontal &amp; fixed navigation</li>
-                        <li class="fragment">Heros with full bleed background images</li>
-                        <li class="fragment">Border-radius on images &amp; elements</li>
-                        <li class="fragment">Custom font-faces</li>
-                        <li class="fragment">Three column layouts</li>
-                        <li class="fragment">Fancy buttons</li>
-                    </ul>
-            </section>
-            <section data-background="#f05b62">
-                <h1 style="color: #fafafa;">Standard Practices</h1>
-            </section>
-            <section>
-                <h3>Standard Practices</h3>
-                <ul>
-                    <li class="fragment">Reset CSS files</li>
-                    <li class="fragment">Standard widths and sizes</li>
-                    <li class="fragment">Containers for layout</li>
-                </ul>
-            </section>
+              <h3>Tools for Web Development </h3>
+              <img src="images/html-css-javascript.png" alt="html css and js" style="width:800px;"/>
+          </section>
+          <section>
+            <h3>Tools for Web Development </h3>
+            <ul>
+              <li>HTML creates the basic structure and content</li>
+              <li>CSS creates the presentation layer</li>
+              <li>JavaScript adds responsiveness and interactivity</li>
+          </ul>
+        </section>
+          <section>
+            <h3> HTML &amp; CSS </h3>
+            <img src="images/HTML-CSS.jpeg" alt="html and css" style="width:800px;"/>
+          </section>
+          <section data-background="#f05b62">
+            <h1 style="color: #fafafa;"> HTML5 &amp; CSS3 </h1>
+          </section>
+          <section>
+            <h3> What's the Difference?</h3>
+            <ul>
+              <li>Refers to latest version of HTML and CSS from the <a href="https://www.w3.org/standards/">W3C</a></li>
+              <li>Made a lot of languages and hacks obsolete (e.g. Flash) by replacing with native functionality</li>
+              <li>Unless specified, HTML &amp; CSS refers to latest versions</li>
+          </ul>
+          </section>
+          <section>
+            <h3> Where's HTML6 &amp; CSS4?</h3>
+            <ul>
+              <li>CSS2.1 and HTML4 were monoliths and browsers were fixed versions</li>
+              <li>W3C now specs out features instead of everything at once
+                (e.g. <a href="https://www.w3.org/TR/selectors-4/">level 4 selectors</a>)</li>
+              <li>Browsers have become "evergreen" and will support latest features on a rolling basis</li>
+              <li><a href="https://caniuse.com/">Check for support on a per feature basis</a></li>
+            </ul>
+          </section>
+          <section data-background="#f05b62">
+            <h1 style="color: #fafafa;">CSS</h1>
+          </section>
             <section>
                 <h3>Reset CSS</h3>
-                <p>Even though HTML is the structure and CSS is the design, some HTML elements have default styles</p>
-                <p>Different browsers display these things differently. A reset gets rid of these inconsistencies.</p>
+                <p>Different browsers display HTML elements differently</p>
+                <p>A reset file returns all HTML elements to a baseline style</p>
                 <p class="fragment">
                     <strong>Examples include:</strong>
                 </p>
@@ -164,7 +173,7 @@
                 </ul>
             </section>
             <section>
-                <h3>Reset CSS</h3>
+                <h3>Reset CSS Examples</h3>
                 <div>
                     Most elements:
                     <pre><code class = "html">
@@ -184,169 +193,78 @@
                 </div>
             </section>
             <section>
-                <h3>Reset CSS</h3>
-                <p>We've done all the hard work for you! Instead of typing this out - we've included this in our example files.</p>
-            </section>
-            <section>
-                <h3>Standard widths and sizes</h3>
+                <h3>Vendor Prefixes</h3>
                 <ul>
-                    <li>Screen sizes vary from computer to computer. Standardize your site on different screen sizes by defining specific widths.</li>
-                    <li>Wrap your content in containers to control the max width it can span across a screen.</li>
-                    <li>Keep in mind screen sizes also mean different font size display.</li>
-                    <li>Retina screens have a higher pixel density and a larger resolution, so fonts appear smaller.</li>
+                    <li>Not usually needed for evergreen browsers (Chrome, Firefox, and Safari)</li>
+                    <li>Flags the property as a work-in-progress, removed once globally supported</li>
+                    <li>Most modern dev shops handle prefixes with preprocessors and polyfills</li>
                 </ul>
             </section>
             <section>
-                <h3>Fixed vs. Fluid Width pages</h3>
-                <p>
-                    <strong class="blue">Fixed</strong>
-                </p>
-                <ul>
-                    <li>Fixed websites have a set width for the wrapper, usually 960px to 1024px.</li>
-                    <li>The elements inside the wrapper have a set width, or percentage of the wrapper width.</li>
-                    <li>No matter the screensize, the user always sees the same size site.</li>
-                </ul>
-            </section>
-            <section>
-                <h3>Fixed vs. Fluid Width pages</h3>
-                <p>
-                    <strong class="blue">Fluid</strong>
-                </p>
-                <ul>
-                    <li>Also referred to as a liquid layout.</li>
-                    <li>Majority of the components, including the wrapper, have percentages for their widths.</li>
-                    <li>The layout adjusts for the width of the user's screen resolution.</li>
-                    <li>Sounds like a responsive site right!? More on that later.</li>
-                </ul>
-            </section>
-            <section>
-                <h3>Containers</h3>
-                <p>Wrappers are a good way to center content if the screen width is wider than your content.</p>
-                <pre><code class = "html">
-  .container {
-      width: 100%; /* take up full viewport width */
-      max-width: 1440px; /* if viewport is larger than 1440px, 
-                            don't let it take up 100% */
-      margin: 0 auto; /* center content in the viewport */
-  }
-</code></pre>
-                <ol>
-                    <li>The container will take up 100% of the screen if the width of the viewport is less than 1440px.</li>
-                    <li>If the viewport is wider than 1440px, it will reach it's max width, and become centered in the viewport.</li>
-                </ol>
-
-            </section>
-            <section data-background="#f05b62">
-                <h1 style="color: #fafafa;">HTML5</h1>
-            </section>
-
-            <section>
-                <h3>HTML 5: What is it?</h3>
-                <p>Formally, HTML5 is the <a href="http://www.w3.org/TR/html5/" target="_blank">W3C’s specification</a> for the next version of HTML.</p>
-                <p>Informally, people use "HTML5" to refer to a whole set of new web standards and abilities:
-                    <ul class>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript</li>
-                    </ul>
-            </section>
-
-            <!-- Specifications-->
-            <section>
-                <h2>Quick History of HTML5</h2>
+                <h3>Vendor Prefixes</h3>
+                <p>Each browser has their own:</p>
                 <ul>
                     <li>
-                        <strong class="blue">2004:</strong>"WHAT" Working group formed. (WHATWG)
-                        <br/>
-                        <p>Members from Apple, Mozilla, &amp; Opera set out to develop HTML5.</li>
-                    <li class="fragment">
-                        <strong class="blue">2008:</strong>First version of HTML5 published</br>
-                        <p>First draft is written, but changes are still coming. HTML5 is continually evolving.</p>
-                    </li>
-                    <li class="fragment">
-                        <strong class="blue">2008:</strong>Firefox 3 becomes HTML5 compatable.</li>
-                    <li class="fragment">
-                        <strong class="blue">Jan. 2010:</strong>YouTube now offers HTML5 video player.</li>
-
-
+                        <span class="green">Chrome:</span>-webkit-</li>
+                    <li>
+                        <span class="green">Firefox:</span>-moz-</li>
+                    <li>
+                        <span class="green">Safari:</span>-webkit-</li>
+                    <li>
+                        <span class="green">Opera:</span>-o-</li>
                 </ul>
             </section>
             <section>
-                <h2>Okay, not that quick history of HTML5</h2>
+                <h3>Using Prefixes</h3>
+                <pre><code class="css">.hero img {
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+-ms-border-radius: 50%;
+-o-border-radius: 50%;
+border-radius: 50%;
+}</code></pre>
+                <p>Order matters! The non-prefixed version should always go last.</p>
+            </section>
+            <section>
+                <h3>NOTE:</h3>
+                <p style="text-align: left">While you should always use the vendor prefixes when writing code, today we're just going to use the non-prefixed property.</p>
+                <p style="text-align: left">This is to save time during the code exercises</p>
+            </section>
+            <section>
+                <h3>Standardizing User Experience</h3>
                 <ul>
-
-                    <li class="fragment">
-                        <strong class="blue">April 2010:</strong> Steve Jobs trashes Flash &amp; bans it on all Apple devices in favor of HTML5.</li>
-                    <li class="fragment">
-                        <strong class="blue">Dec. 2010:</strong> Chrome opens HTML5 web store.</li>
-                    <li class="fragment">
-                        <strong class="blue">Sept. 2011:</strong> 34% of top 100 sites use HTML5</li>
-                    <li class="fragment">
-                        <strong class="blue">Sept. 2012:</strong> WC3 proposes stable release of HTML5 by end of 2014!</li>
-                    <li class="fragment">
-                        <strong class="blue">Oct. 2014:</strong> Final and complete!</li>    
+                    <li>Screen sizes vary from device to device</li>
+                    <li>Mobile means displaying content on landscape and portrait mode</li>
+                    <li>Different screen sizes mean different resolutions (e.g. fonts appear smaller on retina)</li>
+                    <li>Different devices have different GPU speeds, bandwidth, and "native" capabilities</li>
                 </ul>
             </section>
-            <!-- Browser compatibility -->
-            <aside class="notes">up-to-date-stats as of 7/2015</aside>
             <section>
-                <h2>What about the browsers?</h2>
-                <p>Percentage of HTML5 Elements supported:</p>
+                <h3>Fixed vs. Fluid Layout: Fixed*</h3>
                 <ul>
-                    <li class="chrome">
-                        <strong>Chrome 43:</strong>
-                        <span class="green">95% supported</span>
-                    </li>
-                    <li class="opera">
-                        <strong>Opera 29:</strong>
-                        <span class="blue">94% supported</span>
-                    </li>
-                    <li class="firefox">
-                        <strong>Firefox 38:</strong>
-                        <span class="blue">84% supported</span>
-                    </li>
-                    <li class="webkit">
-                        <strong>Safari 8:</strong>
-                        <span class="blue">71% supported</span>
-                    </li>
-                    <li class="ie">
-                        <strong>Internet Explorer 11:</strong>
-                        <span class="blue">60% supported</span>
-                    </li>
-
+                    <li>Container has a set width (usually 960px to 1024px)</li>
+                    <li>Elements have a set width or percentage width</li>
+                    <li>Site remains the same layout no matter the screen size</li>
                 </ul>
+                <p style="float: left; margin-top: 20px;"><em>* not recommended for professional web development</em></p>
             </section>
             <section>
-                <h3>So what's so cool about it?</h3>
-                <img src="images/html5.svg" style="width:25%" alt="" class="no-border" />
-                <p>Too much to cover in our time together</p>
-                <p>But here are some highlights:</p>
-            </section>
-            <section>
-                <h2>Marks some old things obsolete</h2>
-                <strong class="blue">Examples</strong>
+                <h3>Fixed vs. Fluid Layout: Fluid</h3>
                 <ul>
-                    <li>Deprecated items (e.g.
-                        <code>frame, frameset, noframes</code>)</li>
-                    <li>Presentational elements and attributes replaced by CSS (e.g.
-                        <code>font, big, center</code>)</li>
+                    <li>Element widths and heights are percentages</li>
+                    <li>Elements also have min and max widths (for sanity)</li>
+                    <li>Adjusts to different screen widths and resolutions</li>
                 </ul>
-                <a href="http://dev.w3.org/html5/spec/single-page.html#obsolete" target="_blank">Reference</a>
             </section>
-            <section>
-                <h2>Redefines a few things</h2>
-                <p>Gives some old elements semantic meaning and separates them from presentation (e.g.
-                    <code>b, i, strong, em</code>)</p>
+            <section data-background="#f05b62">
+                <h1 style="color: #fafafa;">HTML</h1>
             </section>
-
-
-            <!-- DOCTYPE -->
             <section>
                 <h2>HTML5 Doctype</h2>
                 <pre><code class="xml">
 &lt;!DOCTYPE html&gt;
         </code></pre>
-                <p>
+                <p style="text-align: left">
                     Minimum information required to ensure that a browser renders using standards mode
                 </p>
             </section>
@@ -360,82 +278,108 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
         </code></pre>
             </section>
-
-            <!-- New Elements -->
             <section>
-                <h2>New Structural Elements</h2>
+                <h2>Semantic Elements</h2>
+                <ul>
+                  <li>2001: Semantic Web discussion to enable software "web agents" to find, filter, and correlate unrelated websites for the benefit of the user</li>
+                  <li>Today: Aides web crawlers, search engines, and (most importantly) screen readers "read" a web page</li>
+                  <li><a href="http://html5doctor.com/element-index/">Reference for semantic elements available in HTML5</a></li>
+                </ul>
             </section>
             <section>
                 <h2>&lt;section&gt;</h2>
                 <ul>
-                    <li>Groups together thematically related content</li>
-                    <li>Similar to prior use of the div, but div has no semantic meaning</li>
+                    <li class="fragment">Groups together thematically related content</li>
+                    <li class="fragment">Similar to prior use of the div, but div has no semantic meaning</li>
                 </ul>
             </section>
             <section>
                 <h2>&lt;header&gt;</h2>
                 <ul>
-                    <li>Container for a group of introductory or navigational aids</li>
-                    <li>Document can have multiple header elements</li>
-                    <li>E.g. one for the page, one for each section</li>
+                    <li class="fragment">Container for a group of introductory or navigational aids</li>
+                    <li class="fragment">Document can have multiple header elements</li>
                 </ul>
             </section>
             <section>
                 <h2>&lt;nav&gt;</h2>
                 <ul>
-                    <li>Contains major navigational information</li>
-                    <li>Usually a list of links</li>
-                    <li>Often lives in the header</li>
-                    <li>E.g. site navigation</li>
+                    <li class="fragment">Contains major navigational information</li>
+                    <li class="fragment">Usually a list of links</li>
+                    <li class="fragment">Often lives in the header</li>
                 </ul>
             </section>
             <section>
                 <h2>&lt;footer&gt;</h2>
                 <ul>
-                    <li>Contains information about its containing element</li>
-                    <li>E.g. who wrote it, copyright, links to related content, etc.</li>
-                    <li>Document can have multiple footer elements</li>
-                    <li>E.g. one for the page, one for each section</li>
+                    <li class="fragment">Contains information about its containing element</li>
+                    <li class="fragment">Document can have multiple footer elements</li>
                 </ul>
             </section>
             <section>
                 <h2>&lt;aside&gt;</h2>
                 <ul>
-                    <li>Tangentially related content</li>
-                    <li>E.g. sidebar, pull quotes</li>
+                    <li class="fragment">Tangentially related content</li>
                 </ul>
             </section>
 
             <section>
                 <h2>&lt;article&gt;</h2>
                 <ul>
-                    <li>Self-contained related content</li>
-                    <li>E.g. blog posts, news stories, comments, reviews, forum posts</li>
+                    <li class="fragment">Self-contained related content</li>
                 </ul>
             </section>
-
-
+            <section>
+                <h2>Unusual Content</h2>
+                <p style="text-align: left">Technically, you can name an element anything: </p>
+                <pre style="text-align: center"><code class="html"><mysteryElement></mysteryElement></code></pre>
+                <p style="text-align: left">But you <em>should</em> use a div with a semantic class name </p>
+                <pre style="text-align: center"><code class="html"><div class="commentbox"></div></code></pre>
+            </section>
+            <section>
+                <h3>Break Time</h3>
+                <img style="height: 600px" src="images/gif1.gif"/>
+            </section>
+            <section>
+              <section>
+                <h3>HTML Structure</h3>
+                <p>Remember, it's squares all the way down</p>
+                <img style="height: 600px" src="images/webdesigngrid.png"/>
+              </section>
+              <section>
+                  <h3>HTML Structure</h3>
+                  <p>Even when we break the grid</p>
+                  <img style="height: 600px" src="images/breakingthegrid.png"/>
+              </section>
+                <section>
+                    <img style="height: 700px" src="images/website-layout.png"/>
+                </section>
+                <section>
+                    <h3>Tools for Layouts</h3>
+                    <p><a href="https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en-US">Developer plugin</a> to view the internet like a web crawler</p>
+                    <p><a href="https://css-tricks.com/snippets/css/complete-guide-grid/">CSS grid</a> new spec for complex layouts without flexbox</p>
+                </section>
+            </section>
             <section>
                 <h3>Let's Develop It</h3>
                 <ul>
-                    <li>Use new HTML elements to layout the site</li>
-                    <li>Refer to the example design for hints</li>
+                    <li class="fragment">Use semantic HTML elements to layout the site</li>
+                    <li class="fragment">Refer to the completed project for hints</li>
                 </ul>
             </section>
             <section data-background="#f05b62">
                 <h1 style="color: #fafafa;">Horizontal Fixed Nav</h1>
             </section>
             <section>
-                <h3>All the cool kids are doing it</h3>
+                <h3>Fixed Nav (aka "sticky nav")</h3>
+                <p style="float:left; font-weight: bold">This is a very popular UX for navigation because:</p>
                 <ul>
                     <li>Horizontal fixed-to-top nav allows users to have access to navigational elements at all times</li>
-                    <li>All the rage these days</li>
-                    <li>Be careful - screen heights vary, and it reduces the amount of content visible on smaller screens</li>
+                    <li>Works well on mobile where pages can be much longer and context isn't always readily available</li>
                 </ul>
+                <p style="text-align: left">However, can often take up valuable screen real-estate and require complicated loading scripts for different devices</p>
             </section>
             <section>
                 <h3>Fixed Nav: HTML</h3>
-                <p>Let's include it in a header, since we know we'll be grouping related content here.</p>
                 <pre><code class="xml">
 <header>
     <nav>
@@ -450,8 +394,6 @@
             </section>
             <section>
                 <h3>Fixed Nav: CSS</h3>
-                <p>Remember, using fixed position is like using absolute position, except that it's fixed to the viewport, not the containing element.</p>
-                <p>We also have to define a width for it, and its location.</p>
                 <pre><code class="css">
 nav {
     position: fixed;
@@ -464,10 +406,26 @@ nav {
 }</code></pre>
             </section>
             <section>
+                <h3>Fixed vs Absolute vs Relative</h3>
+                <ul>
+                  <li>Relative: relative to it's normal position</li>
+                  <li>Absolute: relative to it's nearest (non <code>position: static</code>) parent</li>
+                  <li>Fixed: relative to the viewport</li>
+                </ul>
+                <a style="width: 100%; display: block;" href="https://css-tricks.com/almanac/properties/p/position/">Examples of <code>position</code> property in action</a>
+            </section>
+            <section>
+                <h3>Sticky</h3>
+                <ul>
+                    <li>New property for common mobile UX</li>
+                    <li>Not supported on Opera mini and IE</li>
+                  </ul>
+                <a style="width: 100%; display: block;" href="https://codepen.io/geoffgraham/pen/ybVzeX">Demo</a>
+            </section>
+
+            <section>
                 <h3>Fixed Nav: CSS</h3>
-                <p>Because we've fixed the nav to the top of the viewport, we need to bump the content of the
-                    <code>body</code> down to be visible to the user.</p>
-                <p>This should be the same, or more than, the height of the navigation bar.</p>
+                <p style="text-align: left"><code>position: fixed</code> means we need to move the <code>body</code> content down in order to prevent the navigation from overlapping</p>
                 <pre><code class="css">
 body {
     padding-top: 70px;
@@ -484,8 +442,7 @@ nav {
             </section>
             <section>
                 <h3>Fixed Nav: CSS</h3>
-                <p>Now we need to get those list items next to each other instead of stacked.</p>
-                <p>Let's float them to the left and add some padding to the links so they have a large clickable area.</p>
+                <p style="text-align: left">Align navigation elements and increase click area*</p>
                 <pre><code class="css">nav {
     position: fixed;
     top: 0;
@@ -504,15 +461,23 @@ nav li a {
     display: block;
 }
 </code></pre>
+<p style="text-align: left">* The recommended minimum click area is 44x44px for accessibility, for more standards check out <a href="https://www.w3.org/WAI/intro/people-use-web/principles">Web Accessibility Initiative</a></a> </p>
             </section>
+
             <section>
-                <h3>Fixed Nav: Adding a brand</h3>
+                <h3>Box Model</h3>
+                <img src="images/css-box-model.png" style="height: 500px" />
+            </section>
+
+
+            <section>
+                <h3>Fixed Nav: Adding a brand logo</h3>
                 <p>We can use an
-                    <code>H1</code> with text replacement to include a brand, or logo, in the corner that will still work if images are turned off, making it accesible to screen readers.</p>
+                    <code>H1</code> with text replacement to display our logo</p>
                 <pre><code class="xml">
 <header>
     <nav>
-        <h1 id="brand">IMA Zebra</h1>
+        <h1 class="brand">IMA Zebra</h1>
         <ul>
             <li><a href="#home">My Home</a></li>
             <li><a href="#diet">My Diet</a></li>
@@ -524,14 +489,14 @@ nav li a {
             </section>
             <section>
                 <h3>Fixed Nav: Text replacement &amp; H1s</h3>
-                <pre><code class="css">#brand {
+                <pre><code class="css">.brand {
     color: transparent;
     background: url(../images/z.png) no-repeat top left;
     height: 60px;
     width: 60px;
     float: left;
     margin: 5px;
-} 
+}
 nav ul {
     float: right;
     width: auto;
@@ -540,43 +505,40 @@ nav ul {
             <section>
                 <h3>Why Text Replacement?</h3>
                 <ul>
-                    <li>If we turn the CSS off for this page - the title will still be visible to the browser.</li>
-                    <li>If a user is coming to our site with a screen reader - the title of the site will be readable to them</li>
-                    <li>Search engines &hearts; it!</li>
+                    <li>If CSS doesn't load - the title will still be visible to the browser.</li>
+                    <li>If a user is using a screen reader - the title of the site will be readable to them</li>
+                    <li>Improves SEO of our site</li>
                 </ul>
             </section>
             <section>
                 <h3>Fixed Nav: Container</h3>
-                <p>Notice how the edge of the nav bumps up against the edge of the browser? Let's fix that by adding a container around it.</p>
+                <p style="text-align: left">We also need to account for large monitors, let's control the width of our page with a container</p>
                 <pre><code class="xml">
-<header>
-    <nav>
-        <div class="container">
-            <h1 id="brand">IMA Zebra</h1>
-            <ul>
-                <li><a href="#home">My Home</a></li>
-                <li><a href="#diet">My Diet</a></li>
-                <li><a href="#pattern">Stripes</a></li>
-            </ul>
-        </div>
-    </nav>
-</header>
+<div class="container">
+  <header>
+      <nav>
+        <h1 class="brand">IMA Zebra</h1>
+        <ul>
+            <li><a href="#home">My Home</a></li>
+            <li><a href="#diet">My Diet</a></li>
+            <li><a href="#pattern">Stripes</a></li>
+        </ul>
+      </nav>
+  </header>
+</div>
 </code></pre>
             </section>
             <section>
                 <h3>Fixed Nav: Container</h3>
-                <p>Let's give the container a fixed width and see what happens.</p>
+                <p style="text-align: left">Let's give the container a fixed width and see what happens.</p>
                 <pre><code class="css">.container {
     width: 1024px;
     margin: 0 auto;
 }</code></pre>
-                <p>Now wherever we use
-                    <code>.container</code> it will be 1024px wide and centered.</p>
             </section>
             <section>
-                <aside class="notes">End of Class 1 in 4 week sequence</aside>
                 <h3>Develop It!</h3>
-                <p>Let's make some small tweaks to the navigation
+                <p style="text-align: left">Let's make some small tweaks to the navigation
                     <ul>
                         <li>Remove the underlines on the links with
                             <code>text-decoration</code>
@@ -586,14 +548,18 @@ nav ul {
                     </ul>
 
             </section>
+            <section>
+                <h3>Break Time</h3>
+                <img style="height: 600px" src="images/gif2.gif"/>
+            </section>
             <section data-background="#f05b62">
                 <h1 style="color: #fafafa;">Hero Section</h1>
             </section>
             <section>
                 <h3>What is a Hero?</h3>
                 <ul>
-                    <li>Large banner image, prominently placed on a web page, generally in the front and center</li>
-                    <li>First visual a visitor encounters on the site and its purpose is to present an overview of the site's most important content</li>
+                    <li>Large banner image</li>
+                    <li>First impression of a site used to display the most important information </li>
                     <li>Often consists of image and text, can be static or dynamic</li>
                 </ul>
             </section>
@@ -619,158 +585,78 @@ nav ul {
             </section>
             <section>
                 <h3>Hero: HTML</h3>
-                <p>Our Hero
-                    <code>section</code> should look a little something like this:</p>
-                <pre><code class="xml">&lt;section id="hero">
+                <pre><code class="xml">&lt;section class="hero">
     <img src="images/zebra.jpg" alt="IMA Zebra" />
     <h2>IMA Zebra</h2>
     <span class="city">Africa</span>
-&lt;/section> </code></pre> 
+&lt;/section> </code></pre>
             </section>
             <section>
                 <h3>Hero: CSS</h3>
-                <p>Now is where the fun really happens!</p>
-                <pre><code class="css">#hero {
-    background: url(../images/zebra-hero.jpg) no-repeat top left;
-    color: #fafafa;
-    text-align: center;
-}
-</code></pre> 
-            </section>
-            <section>
-                <h3>Hero: CSS</h3>
-                <p>Let's give it a height and some padding too.</p>
-                <pre><code class="css">#hero {
+                <pre><code class="css">.hero {
     background: url(../images/zebra.jpg) no-repeat top left;
     color: #fafafa;
     text-align: center;
     height: 350px;
     padding: 25px 0;
 }
-</code></pre> 
-                <p>Remember our Box Model. Padding adds to the height &amp; width of elements.</p>
-                <p>So the height of our hero will be
+</code></pre>
+                <p style="text-align: left">Remember our Box Model. Padding adds to the height &amp; width of elements.</p>
+                <p style="text-align: left">So the height of our hero will be
                     <code>400px</code>
                 </p>
             </section>
             <section>
-                <h3>Well, that was unexpected...</h3>
-                <p>Things that are wrong with this hero right now:
-                    <ol>
-                        <li>That image of your face is way to big! And it's not even a circle!</li>
-                        <li>The background image is way too large</li>
-                        <li>The headline is really tiny</li>
-                    </ol>
-            </section>
-            <section>
                 <h3>Hero: Profile Image</h3>
-                <p>Let's make the profile image a little smaller.</p>
-                <p>We'll use CSS Targeting with the descendant selector to style the image.</p>
-                <pre><code class="css">#hero img {
+                <pre><code class="css">.hero img {
     width: 150px;
 }</code></pre>
-                <p>That should do it</p>
             </section>
                 <section data-background="#f05b62">
-                    <h1 style="color: #fafafa;">Border Magic</h1>
-                </section>
-                <section>
-                    <h3>Turning squares into circles with magic!</h3>
-                    <p>Okay, it's not really magic, it's just a bit of CSS3.</p>
-                </section>
-                <section>
-                    <h3>Border-Radius</h3>
-                    <p>Simply put, allows you to create rounded corners on boxes.</p>
-                    <p>Designers rejoice!</p>
+                    <h1 style="color: #fafafa;">Border-radius</h1>
                 </section>
                 <section>
                     <h3>Border-radius</h3>
-                    <p>20px radius on all corners</p>
-                    <pre><code class="css">#hero img {
+                    <p style="text-align: left">20px radius on all corners</p>
+                    <pre><code class="css">.hero img {
     border-radius: 20px;
 }</code></pre>
                     <img src="images/radius-20.png" />
                 </section>
                 <section>
                     <h3>Border-radius</h3>
-                    <p>10px radius on top left &amp; bottom right</p>
-                    <p>40px on top right &amp; bottom left</p>
-                    <pre><code class="css">#hero img {
+                    <p style="text-align: left">10px radius on top left &amp; bottom right</p>
+                    <p style="text-align: left">40px on top right &amp; bottom left</p>
+                    <pre><code class="css">.hero img {
     border-radius: 10px 40px;
 }</code></pre>
                     <img src="images/radius-10-40.png" />
                 </section>
                 <section>
                     <h3>Border-radius</h3>
-                    <p>10px radius on top left</p>
-                    <p>20px radius top right</p>
-                    <p>40px radius bottom right</p>
-                    <p>80px radius bottom left</p>
-                    <pre><code class="css">#hero img {
+                    <p style="text-align: left">10px radius on top left</p>
+                    <p style="text-align: left">20px radius top right</p>
+                    <p style="text-align: left">40px radius bottom right</p>
+                    <p style="text-align: left">80px radius bottom left</p>
+                    <pre><code class="css">.hero img {
     border-radius: 10px 20px 40px 80px;
 }</code></pre>
                     <img src="images/radius-10-20-40-80.png" />
                 </section>
                 <section>
                     <h3>Border-radius</h3>
-                    <p>50% radius on all corners</p>
-                    <pre><code class="css">#hero img {
+                    <p style="text-align: left">50% radius on all corners</p>
+                    <pre><code class="css">.hero img {
     border-radius: 50%;
 }</code></pre>
                     <img src="images/radius-50.png" />
                 </section>
-                <section data-background="#f05b62">
-                    <h1 style="color: #fafafa;">Vendor Prefixes</h1>
-                </section>
-                <section>
-                    <h3>Vendor Prefixes</h3>
-                    <p>HTML5 and CSS3 are still new!</p>
-                    <p>This is great, but it means that not all browsers treat new CSS3 properties the same</p>
-                </section>
-                <section>
-                    <h3>Vendor Prefixes</h3>
-                    <p>Flags it as a work-in-progress</p>
-                    <p>When finished, the browser should support the non-prefixed name</p>
-                </section>
-                <section>
-                    <h3>Vendor Prefixes</h3>
-                    <p>Each browser has their own:</p>
-                    <ul>
-                        <li>
-                            <span class="green">Chrome:</span>-webkit-</li>
-                        <li>
-                            <span class="green">Firefox:</span>-moz-</li>
-                        <li>
-                            <span class="green">Safari:</span>-webkit-</li>
-                        <li>
-                            <span class="green">Opera:</span>-o-</li>
-                    </ul>
-                </section>
-                <section>
-                    <h3>Using Prefixes</h3>
-                    <pre><code class="css">#hero img {
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;
-}</code></pre>
-                    <p>Order matters! The non-prefixed version should always go last.</p>
-                </section>
-                <section>
-                    <h3>NOTE:</h3>
-                    <p>While you should always use the vendor prefixes when writing code, today we're just going to use the non-prefixed property.</p>
-                    <p>This is to save time during the code exercises</p>
-                </section>
             <section data-background="#f05b62">
-                <h1 style="color: #fafafa;">Back to our Hero!</h1>
+                <h1 style="color: #fafafa;">Background-size</h1>
             </section>
             <section>
                 <h3>Background-size</h3>
-                <p>Notice how the image is too large for the section? Let's fix that with a new property called
-                    <code>background-size</code>
-                </p>
-                <pre><code class="css">#hero {
+                <pre><code class="css">.hero {
     background: url(../images/zebra.jpg) no-repeat top left;
     color: #fafafa;
     text-align: center;
@@ -779,13 +665,13 @@ nav ul {
     background-size: cover;
 }
 </code></pre>
-                <p>
+                <p style="text-align: left">
                     <code>cover</code> scales the image to the largest size such that both its width and its height can fit inside the content area.</p>
             </section>
 
             <section>
                 <h3>Develop It!</h3>
-                <p>Let's make some small tweaks to the Hero
+                <p style="text-align: left">Let's make some small tweaks to the Hero
                     <ul>
                         <li>Move the image down from the top</li>
                         <li>Adjust the font size of the header</li>
@@ -794,48 +680,44 @@ nav ul {
 
             </section>
             <section data-background="#f05b62">
-                <h1 style="color: #fafafa;">3-column Content Area</h1>
+                <h1 style="color: #fafafa;">3-column Layout</h1>
             </section>
             <section>
-                <h3>Why 3 columns?</h3>
-                <p>Because 2 columns is so 2013</p>
-                <p>Or, because it's a comfortable width for readability. And because 3 is a pleasing design construct.</p>
+                <h3>Why 3 Columns?</h3>
+                <p style="text-align: left">Commonly used layout due to:</p>
+                  <ul>
+                    <li>Flexibility</li>
+                    <li>Readability</li>
+                    <li>Visually pleasing layout with centered content</li>
+                  </ul>
             </section>
             <section>
                 <h3>3 Column: HTML</h3>
-                <p>Our code should look something like this:</p>
-                <pre><code class="xml">&lt;section id="main-content">
+                <pre><code class="xml">&lt;section class="main-content">
     <h3>...</h3>
     &lt;section class="column">
         &lt;img src="images/africa.png" alt="Africa">
         &lt;h4>My Home&lt;/h4>
         &lt;p>Wild zebras live in Africa.&lt;/p>
         &lt;a href="home.html" class="btn">See my home&lt;/a>
-    &lt;/section>   
+    &lt;/section>
     &lt;!-- Repeat .column x3 -->
-&lt;/section> </code></pre> 
+&lt;/section> </code></pre>
 
             </section>
             <section>
                 <h3>3 Column: CSS</h3>
-                <p>Now that we have our 3 columns, we want them to appear next to each other. We can do this by floating them all left.</p>
                 <pre><code class="css">.column {
     float: left;
     width: 30%;
     padding: 15px;
 }        </code></pre>
-                <p>We used 30%, because it lets us perfectly spaced columns without doing math! Don't forget padding (or margin) to give the columns some space.</p>
+                <p style="text-align: left; margin-top: 40px; display: block;">100% width / 3 columns = 30% column width</p>
             </section>
             <section>
-                <h3>Wow. Large Images.</h3>
-                <p>The images didn't scale with the columns, because they ignore constraints like
+                <h3>3 Column: Images</h3>
+                <p style="text-align: left;" >Images won't scale with the columns, because they ignore constraints like
                     <code>div</code> width, unless you tell them to do so.</p>
-                <pre><code class="css">.column img {
-    width: 90%;
-    max-width: 90%;
-}</code></pre>
-                <p>There we go!</p>
-                <p>Let's add a border radius to it too, because we &hearts; circles</p>
                 <pre><code class="css">.column img {
     width: 90%;
     max-width: 90%;
@@ -844,85 +726,73 @@ nav ul {
             </section>
             <section>
                 <h3>3 Column: Container</h3>
-                <p>We've got our 3 column layout set, our images are scaled based on the width of the column, but our columns are still bumping against the edges of the browser.</p>
-                <pre><code class="xml">&lt;section id="main-content">
-    <div class="container">
-        <h3>...</h3>
-        &lt;section class="column">
-            ...
-        &lt;/section>
-        &lt;section class="column">
-            ...
-        &lt;/section>
-        &lt;section class="column">
-            ...
-        &lt;/section>
-    </div>
-&lt;/section></code></pre>
-                <p>Adding the container, which we already defined the width of, makes everything line up.</p>
+                <p style="text-align: left;">Make sure the columns are inside of our container div in order to preven them from stretching too far</p>
+                <p style="text-align: left;">Why not wrap everything in a separate container? <br> Because DRY: Don't Repeat Yourself</p>
             </section>
             <section>
-                <aside class="notes">End of Class 2 in 4 week sequence</aside>
                 <h3>Develop It!</h3>
-                <p>Let's make some small tweaks to these columns
+                <p style="text-align: left">Let's make some small tweaks to the columns
                     <ul>
                         <li>Adjust the font size of the main header of the content area</li>
                         <li>Adjust the font size of the headers in the columns - try changing their colors too</li>
                         <li>Add a border to the images to make them stand out a bit more</li>
                     </ul>
             </section>
+            <section>
+                <h3>End of Day #1</h3>
+                <img style="height: 600px;" src="images/gif3.gif" >
+            </section>
                 <section data-background="#f05b62">
                     <h1 style="color: #fafafa;">SVG Graphics</h1>
                 </section>
                 <section>
-                    <h2>SVG Graphics</h2>
-                    <p>Designers everywhere have always wanted to use vector based graphics on their sites because of their quality.</p>
-                    <p>Well now you can!</p>
+                    <h2>SVG vs JPEG vs PNG vs GIF?</h2>
+                    <p style="text-align: left;">Every image file format has their advantages and disadvantages, but general rule of thumb:</p>
+                    <ul>
+                      <li>JPEG: Photos and color heavy images, widely supported and light-weight</li>
+                      <li>PNG: Images with sharp lines, editable and transparency</li>
+                      <li>GIF: Lightweight alternative to video format</li>
+                      <li>SVG: Single color images, dynamic rendering, lossless scaling, tiny file size, only supported on web</li>
+                    </ul>
                 </section>
                 <section>
-                    <h2>It's not that new really</h2>
-                    <p>It's been a W3C (World Wide Web Consortium) standard since 1999</p>
-                    <p>In recent years browsers are becoming more and more compatable with SVG graphics.</p>
-                    <p>Once upon a time, .png graphics weren't supported in browsers, soon the world will know about SVG!</p>
+                    <h2>SVG</h2>
+                    <p style="text-align: left;">Use Adobe Illustrator, or another vector program, to create a high quality image.</p>
+                    <p style="text-align: left;">Save it as a .svg file.</p>
+                    <p style="text-align: left;">Compress the svg file for web using <a href="https://jakearchibald.github.io/svgomg/">SVGOptimizer</a></p>
                 </section>
                 <section>
-                    <h2>How to use SVG today</h2>
-                    <p>Use Adobe Illustrator, or another vector program, to create a high quality image.</p>
-                    <p>Save it as a .svg file.</p>
-                    <p>Save a high res .png image as a fallback.</p>
+                    <h2>SVG</h2>
+                    <p style="text-align: left;">Image source:</p>
+                    <pre><code class="xml"><img src="logo.svg" alt="logo"></code></pre>
                 </section>
                 <section>
-                    <h2>Include SVG</h2>
-                    <p>Use SVG as an image:</p>
-                    <pre><code>&lt;img src="image.svg" onerror="this.onerror=null; this.src='image.png'"></code></pre>
-                    <p>Use SVG as a background image:</p>
-                    <p class="blue">HTML:</p>
-                    <pre><code>&lt;a href="/" class="logo">
-  GDI
-&lt;/a></code></pre>
-                    <p class="blue">CSS:</p>
+                    <h2>SVG</h2>
+                    <p style="text-align: left;">Embed:</p>
+                    <pre><code class="xml">
+                    <svg ...>
+                        <ellipse class="ground" .../>
+                        <path class="kiwi" .../>
+                      </svg>
+                    </code>
+                    </pre>
+                </section>
+                <section>
+                    <h2>SVG</h2>
+                    <p style="text-align: left;">Background image:</p>
+                    <pre><code class="xml"><div class="logo"></div></code></pre>
                     <pre><code class="css">.logo {
   display: block;
   color: transparent;
   width: 100px;
   height: 82px;
-  background: url(kiwi.svg);
+  background: url(logo.svg);
   background-size: 100px 82px;
 }</code></pre>
                 </section>
-                <section>
-                    <h2>Browser Support</h2>
-                    <p>Our favorite topic - Internet Explorer</p>
-                    <img src="images/svg-support.png" alt="SVG support" />
-                    <p>Chris Coyer has written an <a href="http://css-tricks.com/using-svg/" target="_blank">amazing article</a> with tons of work arounds for our BFF IE8.</p>
-                </section>
-            <section>
-                <h3>SVG Social Icons</h3>
-                <p>Now that we know how awesome SVG graphics are, let's use them in our social links section.</p>
-            </section>
-            <section>
+<section>
                 <h3>Social Links: HTML</h3>
-                <pre><code class="html">&lt;section id="social">
+                <pre><code class="html">&lt;/section> class="social">
     &lt;ul>
         &lt;li>
             &lt;a href="..">
@@ -933,26 +803,24 @@ nav ul {
     &lt;/ul>
 &lt;/section>
 </code></pre>
-                <p>We're using a list for these links for the exact same reason we used them in the navigation. They are a list of links, and should be marked up accordingly.</p>
             </section>
             <section>
                 <h3>Social Links: CSS</h3>
-                <p>We'll need to add a background, some padding, account for the floated list items.</p>
-                <pre><code class="css">#social {
+                <pre><code class="css">.social {
     background: #57BEC5;
     color: #fafafa;
     padding: 25px 0;
     overflow: hidden;
 }
-#social li {
+.social li {
     float: left;
     width: auto;
     padding: 20px;
-}</code></pre> 
+}</code></pre>
             </section>
             <section>
                 <h3>Centering the List</h3>
-                <p>First we should put our social links in a container! We'll also add in a headline.</p>
+                <p style="text-align: left">First we should put our social links in a container! We'll also add in a headline.</p>
                 <pre><code class="xml">&lt;section id="social">
     &lt;div class="container">
         &lt;h3>...&lt;/h3>
@@ -961,7 +829,7 @@ nav ul {
         &lt;/ul>
     &lt;/div>
 &lt;/section></code></pre>
-                <p>Next we'll center the
+                <p style="text-align: left">Next we'll center the
                     <code>ul</code> with a very <a href="http://matthewjamestaylor.com/blog/beautiful-css-centered-menus-no-hacks-full-cross-browser-support" target="_blank">flexible technique</a> that will allow us to have a list of any width</p>
             </section>
             <section>
@@ -971,41 +839,33 @@ nav ul {
                     <li>If you have Illustrator or another program to modify .svg graphics, change the colors to match your site</li>
                 </ul>
             </section>
-
-
             <section data-background="#f05b62">
                 <h1 style="color: #fafafa;">@font-face</h1>
-                <h3 style="color: #fafafa;">Or really, the reason you took this class.</h3>
             </section>
             <section>
-                <h3>@font-face</h3>
-                <p>The world of HTML has progressed beyond Times New Roman and Arial</p>
-                <p class="green">Yay!</p>
-                <p>How do we use new and cool fonts?</p>
+                <h3>Web Typography</h3>
+                <p style="text-align: left">Very broad topic with lots of exciting developments:
+                    <a href="http://alistapart.com/event/web-typography-layout-past-present-future">Web Typography &amp; Layout: Past, Present, and Future</a>
+                </p>
+                <p style="text-align: left">But for today, we're just going to focus on how to use them</p>
             </section>
             <section>
-                <h3>Class, meet Google Web Fonts</h3>
-                <p>Google has hundreds of free, open-source fonts that have been optimized for the web, and ready for us to use!</p>
-                <p>The service runs on Google's servers which are fast, reliable and tested. Google provides this service free of charge.</p>
+                <h3>Google Fonts</h3>
+                <p style="text-align: left">Professional sites will often have custom designed fonts hosted on their own servers</p>
+                <p style="text-align: left">For the rest of us, Google offers <a href="http://www.google.com/fonts">free, web-optimized, hosted fonts</a></p>
             </section>
-            <section data-background="#f05b62">
-                <h2 style="color: #fafafa;"><a href="http://www.google.com/fonts" style="color: #fafafa;" target="_blank">www.google.com/fonts</a>
-                </h2>
-            </section>
-            <!-- Fonts-->
             <section>
-                <h3>@font-face</h3>
-                <p>In our example, we've used Lato for the body and Bree Serif for the headlines</p>
-                <p>You can use any font you'd like!</p>
+                <h3>Google Fonts</h3>
+                <p style="text-align: left">In our example, we've used Lato for the body and Bree Serif for the headlines</p>
                 <img src="images/lato.png" alt="lato" style="width: 40%; float: left;" />
                 <img src="images/bree.png" alt="bree" style="width: 40%; float: right;" />
             </section>
             <section>
-                <h3>Using Google Fonts in 3 steps!</h3>
+                <h3>Using Google Fonts</h3>
                 <ol>
                     <li>Search the hundreds of font families, then add them to your collection.</li>
                     <li>Compare and refine the collection - think about what styles you NEED.</li>
-                    <li>Grab the code that Google prepares for you and add it to your site!</li>
+                    <li>Grab the code that Google prepares for you and add it to your site</li>
                 </ol>
                 <pre><code class = "html">
   @import url(http://fonts.googleapis.com/
@@ -1015,7 +875,7 @@ nav ul {
             </section>
 
             <section>
-                <h3>Integrating into the CSS</h3>
+                <h3>Using Google Fonts</h3>
                 <pre><code class = "html">
 body{
   font-family: 'Lato', sans-serif;
@@ -1027,23 +887,28 @@ h1, h2, h3, h4, h5, h6 {
             </section>
             <section>
                 <h3>Develop It!</h3>
-                <p>Pick some fonts for your site using Google Fonts.</p>
-                <p>Adjust the
-                    <code>font-size</code> and
-                    <code>line-height</code> to refine your fonts.</p>
+                <ul>
+                  <li>Choose your fonts from Google fonts</li>
+                  <li>Adjust the <code>font-size</code> and <code>line-height</code> </li>
+                </ul>
             </section>
             <section data-background="#f05b62">
                 <h2 style="color: #fafafa;">rgba colors &amp; opacity</h2>
             </section>
-            <section>
-          <h3>rgba colors &amp; opacity</h3>
-          <p>In CSS, we can choose colors with hexadecimal <span style="color: #0000FF">#0000FF</span> or <span style="color: rgb(0, 0, 255)">rgb(0, 0, 255)</span></p>
-          <p>In CSS3, there are ways to control opacity of a color too!</p>
+          <section>
+          <h3>rgba Colors &amp; Opacity</h3>
           <ul>
-            <li><strong>rgba</strong> - controls the opacity of a color</li>
-            <li><strong>opacity</strong> - controls the opacity of an element</li>
+            <li>hexadecimal <span style="color: #0000FF">#0000FF</span></li>
+            <li><span style="color: rgb(0, 0, 255)">rgb(0, 0, 255)</span></li>
           </ul>
         </section>
+        <section>
+            <h3>rgba Colors &amp; Opacity</h3>
+            <p style="text-align: left">rgba = <strong>R</strong>ed <strong>G</strong>reen <strong>B</strong>lue <strong>A</strong>lpha</p>
+            <p style="text-align: left">Alpha controls the alpha channel of a color, aka the opacity</p>
+            <p style="text-align: left"><code>opacity</code> controls the opacity of an element</p>
+            <p style="text-align: left">Opacity is always a decimal value from 0 (transparent / not visible) - 1 ( fully visible)</p>
+          </section>
         <section>
           <h3>rgba colors &amp; opacity</h3>
             <article class="fragment">
@@ -1095,48 +960,19 @@ h1, h2, h3, h4, h5, h6 {
                 rgba(255, 0, 0, .1);
               </div>
             </article>
-            
-        </section>
-        <section>
-          <h3>rgba colors</h3>
-          <p>controls the opacity of a color</p>
-          <pre><code>
-.example2 {
-  background-color: rgba(255, 0, 0, 0.8);
-}
-          </code></pre>
-          <p>color property using (red, green, blue, opacity)</p>
-          <p>opacity is a decimal value from 0 to 1</p>
-          <ul>
-            <li>0 - not visible</li>
-            <li>1 - fully visible</li>
-          </ul>
-        </section>
-        <section>
-          <h3>opacity</h3>
-          <p>controls the opacity of an element</p>
-          <pre><code>
-.example2 {
-  opacity: 0.8;
-}
-          </code></pre>
-          <p>decimal value from 0 to 1</p>
-          <ul>
-            <li>0 - not visible</li>
-            <li>1 - fully visible</li>
-          </ul>
+
         </section>
         <section>
             <h3>Develop It!</h3>
-            <p>Change some colors to have alpha transparency or opacity.</p>
-            <p>Use <a href="http://hex2rgba.devoth.com/" target="_blank">http://hex2rgba.devoth.com/</a> to convert HEX to RGBA.</p>
-            <p>Hint: Try making the navbar 80% opaque.</p>
-
+            <ul>
+                <li>Change some colors to have alpha transparency or opacity.</li>
+                <li>Use <a href="http://hex2rgba.devoth.com/" target="_blank">http://hex2rgba.devoth.com/</a> to convert HEX to RGBA.</li>
+                <li>Try making the navbar 80% opaque.</li>
+            </ul>
         </section>
         <section data-background="#f05b62">
                 <h2 style="color: #fafafa;">Text Shadow</h2>
             </section>
-            <!--Text Shadow-->
       <section>
         <h2>text-shadow</h2>
         <pre><code>#example1 { text-shadow: 2px 2px 10px red; }
@@ -1157,13 +993,9 @@ text-shadow: 1px 1px 10px red,
             <section data-background="#f05b62">
                 <h2 style="color: #fafafa;">Box Shadow</h2>
             </section>
-            <section>
-          <h3>box-shadow</h3>
-          <p>Adds a drop shadow to an element</p>
-        </section>
         <section class="example1">
           <h3>box-shadow</h3>
-          <p>box-shadow: offset-x offset-y color</p>
+          <p style="text-align: left">box-shadow: offset-x offset-y color</p>
           <pre><code>
 .example1 { box-shadow: 5px 5px red; }
           </code></pre>
@@ -1194,16 +1026,17 @@ text-shadow: 1px 1px 10px red,
                 <li>Add shadows to your text</li>
                 <li>Remember: Be subtle!</li>
                 <li>Add a box-shadow to the nav</li>
-            </ul>    
+            </ul>
         </section>
-        
+
+        <section>
+            <h3>Break Time</h3>
+            <img style="height: 600px" src="images/gif4.gif"/>
+        </section>
+
         <!-- Gradients-->
         <section data-background="#f05b62">
                 <h2 style="color: #fafafa;">CSS Gradients</h2>
-            </section>
-        <section>
-          <h2>Gradients</h2>
-          <p>Build gradients with CSS - because doing it with images is annoying! </p>
         </section>
         <section>
           <h2>Linear gradients</h2>
@@ -1286,24 +1119,36 @@ background-image: linear-gradient(bottom right, red, white);
           </article>
         </section>
         <section>
-          <h2>CSS gradients are a pain to do from scratch</h2>
-          <p>That's why people have made things like the <a href="http://www.colorzilla.com/gradient-editor/" target="_blank">Ultimate CSS Gradient Generator</a> to make our lives easier!</p>
+            <h2>CSS Gradient Generator</h2>
+            <a href="http://www.colorzilla.com/gradient-editor/" target="_blank">Ultimate CSS Gradient Generator</a>
         </section>
-      
+
 
 
         <section>
             <h3>Develop It!</h3>
-            <aside class="notes">End of Class 3 in 4 week sequence</aside>
-            <p>Add a background gradient to a section of your site</p>
+        <ul>
+                <li>Add a background gradient to a section of your site</li>
+            </ul>
         </section>
-        
+
 <!-- Transitions-->
         <section data-background="#f05b62">
                 <h2 style="color: #fafafa;">Transitions</h2>
-                <h4 style="color: #fafafa;">Allow property changes in CSS values to occur smoothly over a specified duration</h4>
-                <h4 style="color: #fafafa;">Create some awesome effects without any JavaScript</h4>
-            </section>
+        </section>
+        <section>
+            <h3>Transitions</h3>
+            <img src="images/transitions-animations.gif" style="height: 400px" />
+        </section>
+        <section>
+            <h3>Why CSS vs JS Transitions?</h3>
+            <ul>
+                <li>Faster, smoother performance because of hardware acceleration</li>
+                <li>Simpler for small transitions, animations and transforms</li>
+                <li>Can't control attributes independently, for large animations takes time for browser to set up GPU "slices" </li>
+                <li>Experimental <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API">Web Animation API</a> may resolve these issues</li>
+            </ul>
+        </section>
         <section>
           <h2>Transition Triggers</h2>
           <ul>
@@ -1325,27 +1170,29 @@ background-image: linear-gradient(bottom right, red, white);
         </section>
         <section>
           <h2>transition-property</h2>
-          <p>the names of CSS properties that should be transitioned</p>
+          <p style="text-align: left">The names of CSS properties that should be transitioned</p>
           <pre><code>
 .example1 { transition-property: background-color; }
           </code></pre>
-          <p>set to <strong>all</strong> to transition all CSS properties</p>
+          <p style="text-align: left">Set to <strong>all</strong> to transition all CSS properties</p>
           <pre><code>
 .example2 { transition-property: all; }
           </code></pre>
         </section>
         <section>
           <h2>transition-property</h2>
-          <p>
-            <a href="http://leaverou.github.com/animatable/" target="_blank">animatable examples</a>
-          </p>
-          <p>
-            <a href="http://www.w3.org/TR/css3-transitions/#animatable-css" target="_blank">full list of supported properties</a>
-          </p>
+          <ul>
+            <li>
+                <a href="http://leaverou.github.com/animatable/" target="_blank">Animatable examples</a>
+            </li>
+            <li>
+                <a href="http://www.w3.org/TR/css3-transitions/#animatable-css" target="_blank">Full list of supported properties</a>
+            </li>
+        </ul>
         </section>
         <section class="transition-duration">
           <h2>transition-duration</h2>
-          <p>the number of seconds or milliseconds a transition animation should take to complete</p>
+          <p>The number of seconds or milliseconds a transition animation should take to complete</p>
           <pre><code>
 .example1 { transition-duration: 2s; }
           </code></pre>
@@ -1393,14 +1240,19 @@ background-image: linear-gradient(bottom right, red, white);
         </section>
         <section>
             <h3>Develop It!</h3>
-            <p>Pick a transition property and apply it to an element.</p>
-            <p>Hint: The transition will only work if it has a pseudo class, like :hover</p>
+            <ul>
+                <li>Pick a transition property and apply it to an element.</li>
+                <li>Hint: The transition will only work if it has a pseudo class, like :hover</li>
+            </ul>
         </section>
-        
+        <section>
+            <h3>Break Time</h3>
+            <img style="height: 600px" src="images/gif5.gif" />
+        </section>
+
         <!-- Transformations-->
         <section data-background="#f05b62">
                 <h2 style="color: #fafafa;">Transforms</h2>
-                <h4 style="color: #fafafa;">Allow elements rendered by CSS to be transformed in space</h4>
         </section>
         <section>
           <h2>Transform: Scale</h2>
@@ -1484,128 +1336,120 @@ background-image: linear-gradient(bottom right, red, white);
         </section>
         <section>
             <h3>Develop It!</h3>
-            <p>Pick a transform property and apply it to an element.</p>
-            <p>Hint: The transforms, like transitions, will only work if the element has a pseudo class, like :hover</p>
-            <p>Extra Credit: Use it with transition to make the transform smoother.</p>
+            <ul>
+                <li>Pick a transform property and apply it to an element.</li>
+                <li>Hint: The transforms, like transitions, will only work if the element has a pseudo class, like :hover</li>
+                <li>Extra Credit: Use it with transition to make the transform smoother.</li>
+            </ul>
+
         </section>
 
         <section data-background="#f05b62">
                 <h2 style="color: #fafafa;">Responsive Web Design (RWD)</h2>
             </section>
         <section>
-          <h2>What is it!?</h2>
-          <p>RWD is a design approach that suggests that the design &amp; development of a site shoud respond to the user's behavior and environment.</p>
+          <h2>What is it?</h2>
+          <p>RWD is a design approach that suggests that the design &amp; development of a site should respond to the user's behavior and environment.</p>
           <p><img src="images/responsive-design.png" alt="responsive design"/></p>
         </section>
         <section>
-          <h2>Wait, people really care?</h2>
+          <h2>Mobile First => Mobile Only</h2>
           <ul>
             <li>91% of U.S. Citizens have their smart phone within reach 24/7</li>
-            <li>Smartphone users check their phones 150x every day</li>
-            <li>25% of mobile users in the U.S. don't even own a laptop or desktop</li>
+            <li>Smartphone users check their phones an average of 74 times a day</li>
+            <li>10% of mobile users in the U.S. are mobile <strong>only</strong> users</li>
           </ul>
         </section>
         <section>
-          <h2>Why it's awesome</h2>
-          <p>RWD modifies the presentation of a site, without modifying the content of the page. So no matter what, every user has access to the same information.</p>
+            <h2>The Mobile/Tablet/Desktop Myth</h2>
+            <img src="images/responsive-webdesign-screensizes.svg" style="height: 500px" />
+        </section>
+        <section>
+          <h2>RWD Principles</h2>
+          <p>RWD allows for every user to have access to the same content</p>
         <img src="images/responsive-example.png" alt="responsive example" />
         </section>
-      
+
       <section>
-        <h2>How did we get here?</h2>
+        <h2>RWD A Brief History</h2>
           <ul>
             <li>In 2010, Ethan Marcotte coined the term in an article on <a href="http://alistapart.com/article/responsive-web-design" target="_blank">A List Apart</a></li>
-            <li>In 2011, he wrote the book on it (literally), called: "Responsive Web Design"</li>
-            <li>In 2012, RWD was the #2 trend in web design</li>
             <li>2013 was called "The Year of Responsive Web Design" because it was and still is a cost effective alternative to mobile apps</li>
+            <li>Today, responsive web design is a minimum requirement for products</li>
           </ul>
       </section>
       <section>
         <h2>The Ingredients of RWD</h2>
         <ul>
-          <li>A Flexible foundation</li>
+          <li>Flexible design</li>
           <li>Fluid grids</li>
           <li>Flexible images</li>
-          <li>CSS Media Queries to make the magic happen</li>
+          <li>CSS Media Queries</li>
         </ul>
       </section>
       <section>
         <h2>Fluid Grids</h2>
-        <p>With fixed-width sites, we have to adjust the height and width of elements manually.</p>
-        <p>With fluid grids, the height and width of elements is dependent upon the device resolution.</p>
+        <p style="text-align: left">With fixed-width sites, we have to adjust the height and width of elements manually.</p>
+        <p style="text-align: left">With fluid grids, the height and width of elements is dependent upon the device height and width.</p>
       </section>
       <section>
-        <h2>How they work</h2>
+        <h2>Fluid Grids</h2>
           <ul>
-          <li>First, we define a maximum width for the container</li>
-          <li>Then, we divide the content up into a set of columns, usually 12</li>
-          <li>Then, we design elements with proportional widths and heights instead of being stuck with specific pixel dimensions</li>
-          <li>Whenever the device width changes, the grids change in width to scale with the device</li>
+            <li>Define a maximum width for the container</li>
+            <li>Divide the content up into a set of columns (usually 12)</li>
+            <li>Design elements with proportional widths and heights instead of specific pixel dimensions</li>
+            <li>Device width changes, then the grids change in width to scale with the device</li>
           </ul>
         </section>
         <section>
-          <h2>Flexible images</h2>
-          <p>Text scales easily on smaller devices, but images are a bit tricky.</p>
-          <p>Images will overflow their container elements if they're too big for them.</p>
-          <p>That's annoying.</p>
-        </section>
-        <section>
-          <h2>Enter max-width</h2>
-          <p>By using max-width on images, they will only expand to the size of their parent.</p>
-          <p>If their parent has no width, it will just expand to the width of the viewport.</p>
+          <h2>Flexible Images</h2>
+          <p style="text-align: left">Images expand to the width of their parent</p>
 <pre><code>img {
   max-width: 100%;
 }</code></pre>
         </section>
           <section>
             <h2>Media Queries</h2>
-            <p>Media queries apply certain CSS in certain situations.</p>
+            <p style="text-align: left">Media queries apply certain CSS in certain situations, we can target</p>
             <ul>
-             <li>Print Media</li>
-              <li>iPhone</li>
-              <li>iPad</li>
-              <li>Even larger screens</li>
+                <li>Media type (print, screen...)</li>
+                <li>Media features (touch, hover, screen width...)</li>
+                <li>Combinations of types and features (not, only, and...)</li>
             </ul>
           </section>
           <section>
-            <h2>Include Media Queries Last</h2>
-            <p>They will overwrite previous styles because they are last in the cascade.</p>
-            <div>Here's the CSS for #header-image</div>
+            <h2>Media Queries</h2>
+            <p style="text-align: left">Media queries should come last because they will overwrite other styles in the cascade</p>
+            <p style="text-align: left">#header-image CSS</p>
+            <img src="images/mq-normal-style.png" width="380px"/>
 
-            <p><img src="images/mq-normal-style.png" width="380px"/></p>
-            <div>And here are the media queries that call for the larger image to be used for screens over 1200px wide, and to turn off the header image if the site is printed.</div>
-            <p><img src="images/mq-larger-img.png" height="120px"/><img src="images/mq-print.png" height="120px"/></p>
+            <p style="text-align: left">Larger image for screens > 1200px wide</p>
+            <p style="text-align: left">Hide image for print media</p>
+            <img src="images/mq-larger-img.png" height="120px"/><img src="images/mq-print.png" height="120px"/>
           </section>
           <section>
-            <h2>Standard MQs</h2>
-            <p>For devices that have dimensions no smaller than 320px and are not larger than 480px</p>
+            <h2>Standard Media Queries</h2>
+            <p style="text-align: left">Device width >= 320px and &lt; 480px</p>
 <pre><code>/* Smartphones (portrait and landscape) */
-@media only screen and (min-device-width : 320px) 
+@media only screen and (min-device-width : 320px)
 and (max-device-width : 480px) {
 /* Styles */
 }</code></pre>
-<p>iPad dimensions with the orientation in landscape.</p>
-<pre><code>/* iPads (landscape) ----------- */
-@media only screen and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
+<p style="text-align: left">Device width >= 768px and &lt; 1024px and orientation landscape</p>
+<pre><code>/* iPads (landscape)*/
+@media only screen and (min-device-width : 768px)
+and (max-device-width : 1024px)
 and (orientation : landscape) {
 /* Styles */
 }</code></pre>
           </section>
           <section>
-            <h2>How they work</h2>
-            <p>Rather than looking for a type of device, they look at the capability of the device. You can use them to check for all sorts of things.</p>
+            <h2>Progressive Enhancement</h2>
             <ul>
-              <li>Width &amp; height of the viewport</li>
-              <li>Width &amp; height of the device</li>
-              <li>Orientation - landscape or portrait</li>
-              <li>Resolution - retina or normal</li>
+                <li>Start with bare minimum of functionality and gradually enhance functionality</li>
+                <li>Emphasizes content first</li>
+                <li>Often used with "mobile first"</li>
             </ul>
-          </section>
-          <section>
-            <h2>Mobile First</h2>
-            <p>By designing sites with mobile first in mind, it makes scaling them down a lot easier.</p>
-            <p>Mobile first allows us to simplify the user flow to its basic elements and then enhance it as the screen size increases.</p>
           </section>
           <section>
             <h2>iPhone:</h2>
@@ -1621,33 +1465,34 @@ and (orientation : landscape) {
           </section>
           <section>
           <h2>Viewport Meta</h2>
-          <p>Use this to control the size of the viewport.</p>
-<pre><code>&lt;meta name="viewport" content="width=device-width, 
+          <p style="text-align: left">Use this to control the size of the viewport.</p>
+<pre><code>&lt;meta name="viewport" content="width=device-width,
 user-scalable=true;"></code></pre>
-<p>Width=device-width makes the viewport the size of the device.</p>
-<p>User-scalable=true allows the user to pinch and zoom on your site.</p>
+<p style="text-align: left">Width=device-width makes the viewport the size of the device.</p>
+<p style="text-align: left">User-scalable=true allows the user to pinch and zoom on your site.</p>
           </section>
           <section>
             <h2>Let's develop it!</h2>
-            <p>Let's take a look at our site now on a phone (or you can resize your browser), and find ways to improve it.</p>
-            <p>Add the viewport meta tag to the html.</p>
-            <p>Use media queries to shift elements around on the page and to increase legibilty.</p>
+            <ul>
+                <li>Let's take a look at our site now on a phone (or you can resize your browser), and find ways to improve it.</li>
+                <li>Add the viewport meta tag to the html.</li>
+                <li>Use media queries to shift elements around on the page and to increase legibilty.</li>
+            </ul>
           </section>
 
           <section>
               <h2>Retina Images</h2>
-              <p>Retina screens have twice the pixel density than regular screens.</p>
-              <p>If you're not using SVG Graphics, you'll need two images, one for regular resolution and one for retina.</p>
+              <p style="text-align: left">Retina screens have twice the pixel density than regular screens.</p>
+              <p style="text-align: left">Requires two images: one for retina and one fore regular screens</p>
+              <p style="text-align: left">Exception is SVG because it's a vector graphic</p>
             </section>
             <section>
               <h2>2x Media Queries</h2>
-              <p>Target only retina screens by using this media query:</p>
-<pre><code>@media 
-(-webkit-min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi) { 
+<pre><code>@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
     /* Retina-specific stuff here */
 }</code></pre>
-              <p>This takes care of two things, 2x pixel ratio on iOS devices and "high res" Android screens.</p>
             </section>
             <section>
               <h2>2x Images</h2>
@@ -1660,9 +1505,9 @@ user-scalable=true;"></code></pre>
               <img src="images/119-piggy-bank@2x.png" />
               </div>
 
-<pre style="clear: both;"><code>@media 
-(-webkit-min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi) { 
+<pre style="clear: both;"><code>@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
     .icon {
       background-image: url(images/icon-2x.png) no-repeat 0 0;
       background-size: 20px 20px;
@@ -1670,63 +1515,72 @@ user-scalable=true;"></code></pre>
 }</code></pre>
             </section>
             <section>
-              <h2>Or, you could just use SVG</h2>
+                <h3>Break Time</h3>
+                <img style="height: 600px" src="images/gif6.gif"/>
             </section>
-
             <section>
-              <h2>Responsive frameworks</h2>
-              <p>Download a pre-built framework that has basic styles already set up.</p>
+              <h2>Responsive Frameworks</h2>
+              <p>Download a pre-built framework with built-in basic styles</p>
               <ul>
                 <li>Fluid grids</li>
                 <li>Flexible images</li>
                 <li>Responsive media queries</li>
-                <li>Styles for buttons and forms, because they're a pain!</li>
-                <li>Lots of base styles like .pull-right, .btn, etc.</li>
+                <li>Lots of base styles like <code>.pull-right</code>, <code>.btn</code>, etc.</li>
               </ul>
             </section>
             <section>
               <h2>Bootstrap</h2>
-              <p>By far the most popular front-end framework out there.</p>
               <img src="images/bootstrap.png" style="height:400px"/>
               <p><a href="http://getbootstrap.com/" target="_blank">Download</a></p>
             </section>
-            
+
             <section>
               <h2>Foundation</h2>
-              <p>Another very popular framework that is just as robust at bootstrap - but in a different way.</p>
               <img src="images/foundation.png" style="height:400px"/>
               <p><a href="http://foundation.zurb.com/" target="_blank">Download</a></p>
             </section>
             <section>
-              <h2>What they include</h2>
+              <h2>What They Include</h2>
               <ul>
                 <li>Fully responsive out of the box</li>
-                <li>Embraces Mobile First standards</li>
+                <li>Embraces mobile first standards</li>
                 <li>Compiled CSS for all sorts of components</li>
-                <li>LESS or SASS stylesheets for rapid updates</li>
+                <li>SASS stylesheets for rapid updates</li>
                 <li>Javascript for popular components</li>
                 <li>Pre-set styles for icons and buttons</li>
-                <li>Includes Glyphic icon set (awesome!)</li>
+                <li>Includes Glyphic icon set</li>
               </ul>
             </section>
             <section>
-              <h2>What are the cons?</h2>
+              <h2>And a Few New Ones...</h2>
+              <ul>
+                <li><a href="https://semantic-ui.com/">Semantic UI</a></li>
+                <li><a href="http://materializecss.com/">Materialize</a></li>
+                <li><a href="http://www.material-ui.com/#/">Material UI</a></li>
+                <li><a href="https://purecss.io/">Pure CSS</a></li>
+                <li><a href="http://getskeleton.com/">Skeleton</a></li>
+                <li><a href="https://getuikit.com/">UIkit</a></li>
+                <li><a href="https://milligram.io/">Milligram</a></li>
+              </ul>
+            </section>
+            <section>
+              <h2>Drawbacks of Using a UI Framework</h2>
               <ul>
                 <li>Default styles are ... default and not very exciting</li>
-                <li>Requires a fair amount of customization to make a unique looking site</li>
+                <li>Requires hacks to make a unique looking site</li>
                 <li>The documentation is daunting and can be very indimidating</li>
-                <li>Remembering all the class names can be overwhelming</li>
+                <li>Frameworks add bloat and weight to site </li>
+                <li>Difficult to refactor and switch to custom UI later on</li>
               </ul>
             </section>
+            <section data-background="#f05b62">
+              <h2 style="color: #fafafa;">SASS</h2>
+          </section>
             <section>
-              <h2>LESS &amp; SASS?!</h2>
-              <p>These are two very popular CSS preprocessors</p>
+              <h2>What is a CSS Preprocessor?</h2>
+              <p style="text-align: left">CSS preprocessors transpile code</p>
+              <p style="text-align: left">Sass => transpilation => CSS</p>
             </section>
-            <section>
-              <h2>What the what is a CSS Preprocessor?</h2>
-              <p>CSS preprocessors take code written in the preprocessed language and then convert that code into the same old css we’ve been writing for years.</p>
-              <p>Since we're not writing straight CSS, we're not limited to the restrictions of the language.</p>
-            </section> 
             <section>
               <h2>What they do</h2>
               <ul>
@@ -1741,9 +1595,11 @@ user-scalable=true;"></code></pre>
               </ul>
             </section>
             <section>
-              <h2>Some highlights</h2>
-              <p>Mixins!</p>
-<pre><code>/* LESS */ .rounded-corners (@radius: 5px) {
+              <h2>Mixins</h2>
+<pre><code>
+/* SASS */
+
+@mixin rounded-corners(@radius: 5px) {
   -webkit-border-radius: @radius;
   -moz-border-radius: @radius;
   -ms-border-radius: @radius;
@@ -1752,11 +1608,13 @@ user-scalable=true;"></code></pre>
 }
 
 #footer {
-  .rounded-corners(10px);
-}</code></pre>
+  @include rounded-corners(10px);
+}
+</code></pre>
 <pre><code>
-  /* Compiled CSS read by the browser */
-  #footer {
+/* CSS */
+
+#footer {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -1766,7 +1624,8 @@ user-scalable=true;"></code></pre>
   </section>
   <section>
     <h2>Nested Rules</h2>
-<pre><code>// LESS
+<pre><code>
+/* SASS */
 
 #header {
   h1 {
@@ -1779,44 +1638,49 @@ user-scalable=true;"></code></pre>
     }
   }
 }</code></pre>
-<pre><code>/* Compiled CSS */
+<pre><code>
+/* CSS */
 
 #header h1 {font-size: 26px;font-weight: bold;}
 #header p {font-size: 12px;}
 #header p a {text-decoration: none;}
 #header p a:hover {border-width: 1px;}</code></pre>
-  
+
           </section>
           <section>
             <h2>Functions</h2>
-            <p>LESS</p>
-<pre><code>p {
+<pre><code>
+/* SASS */
+
+@function lighten($color, $amount) {
+  //function code here
+  @return $hex-value
+}
+
+p {
   color: lighten(@base, 5%);
 }</code></pre>
-            <p>SASS</p>
-<pre><code>p {
-  color: hsl($hue: 0, $saturation: 100%, $lightness: 50%);
+<pre><code>
+/* CSS */
+
+p {
+  color: #fff00;
 }</code></pre>
           </section>
           <section>
             <h2>Variables</h2>
-            <p>LESS</p>
-<pre><code>// LESS 
-@blue: #199FD9;
-p {
-    color: @blue;
-}
-// Compiled CSS
-p {
-  color: #199FD9;
-}</code></pre>
-<p>SASS</p>
-<pre><code>// SASS 
+<pre><code>
+/* SASS */
+
 $blue: #199FD9;
+
 p {
     color: $blue;
 }
-// Compiled CSS
+}</code></pre>
+<pre><code>
+/* CSS */
+
 p {
   color: #199FD9;
 }</code></pre>
@@ -1844,6 +1708,7 @@ p {
         controls: true,
         progress: true,
         history: true,
+        width: 1500,
 
         theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
         transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/none

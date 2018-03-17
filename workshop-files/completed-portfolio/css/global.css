@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Lato|Bree+Serif);
 
-body {color: #333; 
+body {color: #333;
     font-family: 'Lato', sans-serif;
     padding-top: 66px;
 }
@@ -35,23 +35,23 @@ nav li a {
 nav li a:hover {
     background: #e5e5e5;
 }
-#brand {
+.brand {
 	text-indent: -9000px;
-    background: url(../images/sws.png) no-repeat top left;
+    background: url(../images/z.png) no-repeat top left;
     background-size: 45px;
     height: 45px;
     width: 45px;
     float: left;
     margin: 10px;
-} 
+}
 
 .container {
-    width: 100%; 
+    width: 100%;
     margin: 0 auto;
 }
 
-#hero {
-	background: url(../images/carrboro.png) no-repeat top left;
+.hero {
+	background: url(../images/zebra-hero.jpg) no-repeat top left;
 	text-align: center;
 	color: #fafafa;
 	background-size: cover;
@@ -59,28 +59,28 @@ nav li a:hover {
 	padding: 25px 0;
 }
 
-#hero img {
-	width: 150px; 
+.hero img {
+	width: 150px;
 	border-radius: 50%;
     xmargin-top: 30px;
 }
-#hero h2 {
+.hero h2 {
     font-size: 400%;
     margin: 10px;
 }
-#hero span {
+.hero span {
     border: 2px solid white;
     padding: 10px 20px;
     display: inline-block;
     margin-top: 10px;
     font-size: 150%;
 }
-#main-content{
+.main-content {
     text-align: center;
     padding: 25px 0;
     overflow: hidden;
 }
-#main-content h3{
+.main-content h3{
     font-size: 250%;
     margin: 20px 0;
 }
@@ -111,7 +111,7 @@ nav li a:hover {
     color: #8a80c3;
 }
 
-#social {
+.social {
     background: #8a80c3;
     color: #fafafa;
     padding: 25px 0;
@@ -121,7 +121,7 @@ nav li a:hover {
     width: 100%;
     position: relative;
 }
-#social ul {
+.social ul {
     clear:left;
     float:left;
     list-style:none;
@@ -131,7 +131,7 @@ nav li a:hover {
     left:50%;
     text-align:center;
 }
-#social li {
+.social li {
 	display:block;
     float:left;
     list-style:none;
@@ -140,7 +140,7 @@ nav li a:hover {
     position:relative;
     right:50%;
 }
-#social ul li img
+.social ul li img
 {
     margin: 20px;
 }
@@ -155,12 +155,12 @@ footer
     .column {
         padding: 10px;
     }
-    #hero h2 {
+    .hero h2 {
         font-size: 200%;
     }
-    #main-content h3{
+    .main-content h3{
         font-size: 150%;
-    }   
+    }
 }
 
 @media only screen and (max-width: 640px)
@@ -170,5 +170,5 @@ footer
         width: 100%;
         padding: 0px;
         margin: 0 0 40px 0;
-    } 
+    }
 }
